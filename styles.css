@@ -201,52 +201,40 @@
    
   }
   
-  
-  
+  @media only screen and (max-width: 426px){
+    .nav-list > li{
+      padding: 0 1rem;
+      font-size: 1rem; 
+    }
+    #projects{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    #navbar{
+      justify-content:space-around;
+    }    
+  }
+
   @media only screen and (max-width: 768px) {
       #welcome-section h1{
-          font-size: 2.5rem;
+        font-size: 2.5rem;
       }
       #welcome-section p{
-          font-size: 1.2rem;
+        font-size: 1.2rem;
       }
       .contact-header h1{
-          font-size: 2.5rem;
+        font-size: 2.5rem;
       }
       .contact-links a {
-          display: block;
+        display: block;
       }
   }
   
   @media only screen and (max-width: 400px) {
-      #welcome-section h1{
-          font-size: 2rem;
-      }
-      #welcome-section p{
-          font-size: 1rem;
-      }
+    #welcome-section h1{
+      font-size: 2rem;
+    }
+    #welcome-section p{
+      font-size: 1rem;
+    }
   }
-  
-  @media only screen and (max-width: 375px){
-      .nav-list{
-          font-size: 1rem;                            
-      }
-
-      
-
-      #navbar{
-        justify-content:space-around;
-      }
-
-      #projects{
-        padding-left: 0;
-        padding-right: 0;
-      }
-  }
-  
- @media only screen and (max-width:450px) {
-  .nav-list > li{
-    padding: 0 1rem;
-  }
- }
- 
